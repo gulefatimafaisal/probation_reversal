@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probation Reversal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <header class="bar">
+        <div class="logo">
+            <img src="logo_default_dark_compact.png" alt="Decibel HRMS">
+        </div>
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-question"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <main class="form">
+        <h1>Probation</h1>
+        <div class="card">
+            <h2>Probation Reversal</h2>
+
+             <label for="company">Company Name </label>
+            <select id="company" name="company">
+                 <option value="" disabled selected>- Please Select -</option>
+                 <option value="annual">Descon</option>
+            </select>
+            
+            <label for="appraisal">Appraisal Type</label>
+            <select id="appraisal" name="appraisal">
+                 <option value="" disabled selected>- Please Select -</option>
+                 <option value="annual">Annual</option>
+                 <option value="quarterly">Quarterly</option>
+                 <option value="monthly">Monthly</option>  
+            </select>
+
+
+
+        <p class="search-by">Search by:</p>
+        <div class="radio">
+            <label><input type="radio" name="searchBy">Work Location</label>
+            <label><input type="radio" name="searchBy">Position Code/ Index/ Title</label>
+        </div>
+
+        <label for="employee">Enter</label>
+        <input type="text" id="enter">
+
+        <label for="employee">Employee</label>
+        <select id="employee">
+            <option> - Please Select - </option>
+        </select>
+
+        <button class="btn">Get</button>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p><a href="#">Privacy Policy for Decibel HRMS</a></p>
+        <p>Decibel HRMS. 2025 DecibelBpo. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
